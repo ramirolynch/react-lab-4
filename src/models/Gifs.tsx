@@ -1,5 +1,17 @@
+export interface GiphyAPIResponse {
+  data: Gifs[];
+  pagination: any;
+  meta: MetaProperties;
+}
+
 export interface Gifs {
-    title:string;
-    images:{url:string}
-    url:string;
+  id: string;
+  title: string;
+  images: { original: { url: string } };
+}
+
+export interface MetaProperties {
+  status: number;
+  msg: string;
+  response_id: string;
 }
