@@ -1,0 +1,27 @@
+.result {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    border:2px solid gray;
+    border-radius:2em;
+    padding:20px;
+    margin:20px;
+}
+
+.result img {
+    width:350px;
+}
+
+.main {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+.search, .header {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}

@@ -34,7 +34,7 @@ export function Main () {
 
 
     return(
-        <div>
+        <div className='search'>
             <SearchForm onSubmit={(searchTerm) =>setSearchHandler(searchTerm)}></SearchForm>
 
             <ResultsList gifs={gifs}></ResultsList>
